@@ -15,9 +15,8 @@ foreach ($emailAddresses as $email) {
         // Mark as non-unique
         echo "Non-unique email: $email\n";
     } else {
-        
+
         // Add to the list of seen addresses
         $nonUniqueAddresses[] = $email;
     }
 }
-?>
